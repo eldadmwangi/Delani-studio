@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $("#design1").click(function(){
+      $(".design").toggle();
+    });
+    $(".des").click(function(){
+        $(".design").toggle();
+      });
+    $("#development1").click(function(){
+        $(".development").toggle();
+      });
+      $(".dev").click(function(){
+          $(".development").toggle();
+        });
+
+        $("#product1").click(function(){
+            $(".product").toggle();
+          });
+          $(".prod").click(function(){
+              $(".product").toggle();
+            });
+      });
