@@ -24,17 +24,23 @@ $(document).ready(function(){
                 alert(whatToSay);
               });
 
-            $( "#portfolios" ).hover(
-                function() {
-                  $( this ).append( $( "<span> ***</span>" ) );
-                }, function() {
-                  $( this ).find( "span" ).last().remove();
-                });
+              $('#portfolios').hover(function() {
+                $('#portfolios.img').fadeIn('slow');
+                $('#portfolios.img').fadeOut('slow'); 
+            }, function() { 
+                $('#portfolios').fadeIn('slow'); 
+                $('#portfolios').fadeOut('slow');   
+                $("#portfolios").delay(300).fadeIn(300);   
+            });
 
-                $( "#portfolios.img" ).hover(function() {
-                    $( this ).fadeOut( 100 );
-                    $( this ).fadeIn( 500 );
-                  });
+            $('#portfolios1').hover(function() {
+                $('#portfolios1.img').fadeIn('slow');
+                $('#portfolios1.img').fadeOut('slow'); 
+            }, function() { 
+                $('#portfolios1').fadeIn('slow'); 
+                $('#portfolios1').fadeOut('slow'); 
+                $("#portfolios1").delay(300).fadeIn(300);  
+            });
             });
 
 
