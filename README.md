@@ -1,5 +1,5 @@
 #{Introduction}
-A small page layout displaying my personal profile, skills and career details.
+A page displaying sections of Delani studio's details such as services they offer.
 
 ##{conributors}
 *Eldad Mwangi
