@@ -88,3 +88,11 @@
   padding-top: 15px;
   padding-bottom: 50px;
 }
+#last-image{
+  padding-top: 15px;
+  padding-bottom: 50px; 
+  margin-bottom: 5px;
+}
+#last-contact{
+  text-align: center;
+}
