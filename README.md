@@ -8,13 +8,15 @@ A small page layout displaying my personal profile, skills and career details.
  Delani Studio
 
 ###{Projects Purpose}
-The page displays the content with various effects upon hover
+The page displays the content with various section with various effects such as hover and toggle upon clicking and mouse movements
 
 ####{technology}
-The project incorpates the use of HTML, CSS, bootsrap, jQuery.
+The project incorpates the use of HTML, CSS, bootsrap, jQuery and Github as well as Mailchimp API to collect emails.
 
 upon hover, the what we do section is able to toggle and display content as well as hide it.
 upon hover on the portfolio section, there is a  hover effect which is slow
+
+upon submission of name and email, the page is able to gather inputted credentials with the help of Mailchimp API
 
 
 ##{Licence}
@@ -39,3 +41,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ 
