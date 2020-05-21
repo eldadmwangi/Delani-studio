@@ -60,7 +60,7 @@
 }
 #del,#ass,#man,#ok{
   display: none;
-  background-color:ghostwhite;
+  background-color:gainsboro;
   height: 100%;
   top: 0%;
   padding-top: 50%;
@@ -70,7 +70,7 @@
 }
 #ab,#hom,#bun,#gir{
   display: none;
-  background-color:ghostwhite;
+  background-color:gainsboro;
   height: 100%;
   top: 0%;
   padding-top: 50%;
@@ -85,6 +85,6 @@
   align-content: center;
 }
 #mouse{
-  padding-top: 240px;
+  padding-top: 15px;
   padding-bottom: 50px;
 }

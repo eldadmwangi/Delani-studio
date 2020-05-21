@@ -95,3 +95,9 @@ $(document).ready(function(){
    $("#gir").hide();
  });
 });
+
+$(document).ready(function(){
+  $("#mce-MMERGE2").click(function(){
+    alert(" We have recieved your message. ")
+  });
+});
